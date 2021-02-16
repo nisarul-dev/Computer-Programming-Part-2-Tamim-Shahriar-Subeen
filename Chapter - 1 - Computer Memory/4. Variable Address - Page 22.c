@@ -16,5 +16,6 @@ int main() {
     printf("The value of n2 = %d\t", n2);
     printf("Address of n2 = %p\n",&n2);
 
+
     return 0;
 }
