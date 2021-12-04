@@ -2,14 +2,11 @@
 // Without loop; Using only recusrsion
 #include <stdio.h>
 
-int count = 0;
-
 int sum_till_n(int n) {
-    int count_bkp = ++count;
-    if ( count >= n ) {
+    if ( n <= 1 ) {
         return n;
     }
-    return sum_till_n(n) + count_bkp;
+    return n + sum_till_n(n-1);
 }
 
 
