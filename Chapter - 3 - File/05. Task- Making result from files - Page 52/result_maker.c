@@ -32,5 +32,10 @@ int main () {
 
     printf("\"result.txt\" File has been created.\n");
 
+    fclose(fp_ban);
+    fclose(fp_eng);
+    fclose(fp_math);
+    fclose(fp_result);
+
     return 0;
 }

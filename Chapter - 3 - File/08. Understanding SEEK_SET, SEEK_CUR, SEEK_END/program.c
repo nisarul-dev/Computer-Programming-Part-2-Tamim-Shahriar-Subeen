@@ -42,7 +42,7 @@ int main() {
 	printf ("%c\n", (char) ch ); // D
 
 
-	// SEEK_END - মানে ফাইল পজিশন ইন্ডিকেটর বর্তমান অবস্থান
+	// SEEK_END - মানে ফাইলের সর্বশেষ অবস্থান 
 	fseek(fp, 0, SEEK_END);
 
 	ch = fgetc(fp);
